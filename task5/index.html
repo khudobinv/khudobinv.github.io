@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js"></script>
+    <title>Задание №5 | Калькултор JS</title>
+</head>
+<body>
+    <div class="wrap">
+        <div class="content">
+            <header>
+                <div class="container header__container">
+                    <div class="logo">
+                        <h1>Калькулятор стоимости заказа</h1>
+                    </div>
+                    <div class="links">
+                        <a target="_blank" class="header__link btn" href="https://github.com/khudobinv">Ко всем заданиям</a>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <div class="container">
+                    <h3 class="main__text">Добро пожаловать! Это калькулятор для расчета стоимости вашего товара. Чтобы узнать, просто заполните форму ниже:</h3>
+                    <div class="form">
+                        <label for="count">Количество товара (в единицах):</label>
+                        <input class="input" id="count" name="count" type="text" required placeholder="Введите количество">
+                        <label for="product">Название товара:</label>
+                        <select class="input" name="product" id="product">
+                            <option onclick="high_uni" value="high_uni">Кеды Nike Dunk High University – 15 292 ₽</option>
+                            <option onclick="airmax_plus" value="airmax_plus">Кроссовки Nike Air Max Plus - 24 990₽</option>
+                            <option onclick="vision_mid" value="vision_mid">Кеды Court Vision Mid - 11 999 ₽</option>
+                            <option onclick="airmax_preday" value="airmax_preday">Кроссовки Nike Air Max Pre-Day - 18 990 ₽</option>
+                        </select>
+                        <button class="input btn" onclick="func()">Посчитать!</button>
+                    </div>
+                    <h1 class="ans">Результат: <span id="result">0</span> руб.</h1>       
+                </div>
+            </main>
+        </div>
+        <footer>
+            <div class="container footer__container">
+                <div class="footer__content">
+                    <div class="left">
+                        <h1 class="footer_h1">ФГБОУ ВО "Кубанский государственный университет"</h1>
+                        <h2 class="footer_h2">01.03.02 Факультет компьютерных технологий и прикладной математики</h2>
+                        <h3 class="footer_h3">Худобин Василий Олегович, 2023 г.</h3>
+                    </div>
+                    <div class="right">
+                        <a target="_blank" class="footer__link btn" href="https://github.com/khudobinv">Ко всем заданиям</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
