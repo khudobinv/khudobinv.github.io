@@ -188,6 +188,45 @@ nav a:focus:after {
     background-color: #c42222;
 }
 
+.table {
+    margin: 20px 0;
+    display: block;
+    text-align: left;
+    color: #fff;
+    border-collapse: collapse;
+}
+
+.table th {
+    font-weight: 400;
+}
+
+.table * {
+    border: 1px solid #fff;
+
+}
+
+.table__title {
+    font-size: 25px;
+    font-weight: 800 !important;
+}
+
+.table__subtitle {
+    font-size: 23px;
+    font-weight: 700 !important;
+}
+
+.table__title {
+    font-weight: 500;
+}
+
+thead {
+    text-align: center;
+}
+
+th {
+    padding: 5px;
+}
+
 .unavailable {
     background-color: #3C1A1A;
 }
@@ -275,6 +314,16 @@ footer {
 
     .list__desc {
         font-size: 15px;
+    }
+
+    .table__title {
+        font-size: 18px;
+        font-weight: 800 !important;
+    }
+
+    .table__subtitle {
+        font-size: 16px;
+        font-weight: 700 !important;
     }
 
     .footer__container {
