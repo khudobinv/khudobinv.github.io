@@ -227,6 +227,34 @@ th {
     padding: 5px;
 }
 
+form {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #fff;
+    gap: 10px;
+    width: 33.33%;
+}
+
+input {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.gender {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.gender__item {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
 .unavailable {
     background-color: #3C1A1A;
 }
