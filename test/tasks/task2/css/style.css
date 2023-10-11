@@ -65,3 +65,75 @@ header {
 }
 
 /* Шапка сайта */
+
+/*  Основная часть */
+
+.section__links {
+    background-color: #ffffff;
+    border-radius: 20px;
+    height: 75vh;
+    margin: 5vh 10vh;
+    display: flex;
+    padding: 0 50px;
+    align-items: center;
+}
+
+.section__links__content {
+    width: 80vh;
+}
+
+.section__links__heading {
+    font-size: 60px;
+    color: #3380ef;
+}
+
+/*  Основная часть */
+
+
+@media screen and (max-width: 768px) {
+    header {
+        max-height: 10vh;
+    }
+
+    .header__container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .links {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .links a {
+        font-size: 13px;
+    }
+
+    .logo img {
+        height: 20px;
+    }
+
+    .section__links {
+        height: 84vh;
+        margin: 2vh 1vh;
+    }
+
+    .section__links_heading {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .links {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+    }
+    
+    .button a {
+        padding: 0;
+        color: #3380ef;
+        background-color: transparent;
+    }
+}

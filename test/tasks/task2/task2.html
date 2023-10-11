@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
@@ -24,4 +24,42 @@
             </div>
         </div>
     </header>
+    <main>
+        <section class="section__links">
+            <ul>
+                <li><a href="http://kubsu.ru">Сайт КубГУ</a></li>
+                <li><a href="https://kubsu.ru">Сайт КубГУ(https)</a></li>
+                <li><a href="img/image.png"><img src="img/image.png" alt="Ссылка-изображение" width="224" height="168"></a></li>
+                <li><a href="page_in_catalog.html">Сокращенная ссылка на внутреннюю страницу</a></li>
+                <li><a href="/">Сокращенная ссылка на главную страницу</a></li>
+                <li><a href="./index.html#form">Ссылка на фрагмент текущей страницы</a></li>
+                <li><a href="./index.html?id=bio&name=bio&title=biography">Ссылка с тремя параметрами в URL</a></li>
+                <li><a href="./index.html?id=fio">Ссылка с параметром id в URL</a></li>
+                <li><a href="./page_in_catalog.html">Относительная ссылка на страницу в текущем каталоге</a></li>
+                <li><a href="about/about.html">Относительная ссылка на страницу в каталоге about</a></li>
+                <li><a href="../one_level.html">Относительная ссылка на страницу уровнем выше текущего</a></li>
+                <li><a href="../../two_level.html">Относительная ссылка на страницу двумя уровнями выше</a></li>
+                <li><p>Тут просто идет какой-то текст и так далее, потом <a href="https://github.com/"> контекстная ссылка на GitHub</a>, а дальше также такой же текст</p></li>
+                <li><a href="https://ru.wikipedia.org/wiki/HTML#Браузеры">Ссылка на фрагмент страницы стороннего сайта</a></li>
+                <li>
+                    <map name="#map">
+                        <area shape="rect" coords="0 0 120 150" href="https://github.com" alt="Тут прямогульник">
+                        <area shape="circle" coords="180 74 60" href="https://vk.com" alt="Тут круг">
+                    </map>
+                    <img usemap="#map" src="img/image_area.png" width="240" height="150"/>
+                </li>
+                <li><a href="">Ссылка с пустым href</a></li>
+                <li><a>Ссылка без href</a></li>
+                <li><a href="https://kubsu.ru/" rel="nofollow">Ссылка, по которой запрещен переход поисковикам</a></li>
+                <li><a href="https://kubsu.ru/" rel="noindex">Запрещенная для индексации поисковиками</a></li>
+                <ol>
+                    <li><a href="https://vk.com" title="ВКонтакте">Социальная сеть ВКонтакте</a></li>
+                    <li><a href="https://t.me" title="Telegram">Мессенджер Telegram</a></li>
+                    <li><a href="https://whatsapp.com" title="WhatsApp">Мессенджер WhatsApp</a></li>
+                </ol>
+                <li><a href="ftp://user_password@host_port">Ссылка на FTP-сервер с авторизацией</a></li>
+                <li><a href="../../index.html"><b>Вернуться ко всем заданиям</b></a></li>
+            </ul>
+        </section>
+    </main>
 </body>
