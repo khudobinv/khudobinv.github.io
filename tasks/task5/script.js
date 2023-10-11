@@ -2,7 +2,10 @@ function func() {
     var sel = document.getElementById('product').selectedIndex;
     var result;
     var count = document.getElementById('count').value;
-    if (/^[0-9]+$/.test(count)) {
+    if (!(/^[0-9]+$/.test(count))) {
+        result = "ни сколько";
+    }
+    else {
         count = Number(count);
         switch(sel) {
             case 0:
@@ -18,6 +21,6 @@ function func() {
                 result = 18990 * count;
                 break;
         }
-    } else reuslt = "ни сколько";
+    }
     document.getElementById("result").innerHTML = result;
 }
