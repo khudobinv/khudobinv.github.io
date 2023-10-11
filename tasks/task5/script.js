@@ -17,7 +17,7 @@ function func() {
             case 3:
                 result = 18990 * count;
                 break;
-        }
+        } else reuslt = "ни сколько";
     }
     document.getElementById("result").innerHTML = result;
 }
