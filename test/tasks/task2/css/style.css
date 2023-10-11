@@ -113,12 +113,20 @@ header {
         height: 20px;
     }
 
-    .section {
+    .section {  
         margin: 2vh 1vh;
     }
 
     .section__heading {
         font-size: 40px;
+    }
+
+    ul {
+        list-style-position: inside;
+    }
+
+    ul li a {
+        color: #3380ef;
     }
 }
 
