@@ -68,21 +68,20 @@ header {
 
 /*  Основная часть */
 
-.section__links {
+.section {
     background-color: #ffffff;
     border-radius: 20px;
-    height: 75vh;
-    margin: 5vh 10vh;
+    margin: 5vh 10vh 0 10vh;
     display: flex;
     padding: 0 50px;
     align-items: center;
 }
 
-.section__links__content {
-    width: 80vh;
+.section__content {
+    padding: 20px;
 }
 
-.section__links__heading {
+.section__heading {
     font-size: 60px;
     color: #3380ef;
 }
@@ -114,12 +113,12 @@ header {
         height: 20px;
     }
 
-    .section__links {
+    .section {
         height: 84vh;
         margin: 2vh 1vh;
     }
 
-    .section__links_heading {
+    .section__heading {
         font-size: 40px;
     }
 }
