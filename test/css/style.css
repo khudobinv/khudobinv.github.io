@@ -240,6 +240,12 @@ footer {
 }
 
 @media screen and (max-width: 400px) {
+    .links {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline   ;
+    }
+    
     .button a {
         padding: 0;
         color: #3380ef;
