@@ -239,7 +239,7 @@ footer {
 
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 400px) {
     .button a {
         padding: 0;
         color: #3380ef
