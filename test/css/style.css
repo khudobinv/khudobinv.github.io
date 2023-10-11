@@ -239,9 +239,10 @@ footer {
 
 }
 
-@media screen and (max-width: 390px) {
-    .links a {
-        font-size: 10px;
+@media screen and (max-width: 39 0px) {
+    .button a {
+        padding: 0;
+        color: #3380ef
     }
 }
 
