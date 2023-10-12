@@ -75,10 +75,13 @@ header {
     display: flex;
     padding: 0 50px;
     align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .section__content {
-    padding: 20px;
+    padding: 20px 0;
 }
 
 .section__heading {
@@ -190,9 +193,9 @@ footer {
     }
 }
 
-@media screen and(max-width: 300px) {
+@media screen and (max-width: 390px) {
     table {
-        font-size: 10px;
+        font-size: 10px; 
     }
 
     th {
