@@ -144,7 +144,7 @@ select {
     border-radius: 10px;
     border: 1px solid #1F2125;
     appearance: none;
-    width: 300px;
+    width: 100%;
 }
 
 select:hover {
