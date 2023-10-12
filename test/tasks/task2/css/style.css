@@ -120,6 +120,10 @@ th {
     padding: 5px 10px;
 }
 
+tbody tr:nth-child(odd) {
+    background-color: #b9d4f9;
+}
+
 .section__content .form {
     display: flex;
     flex-direction: row;

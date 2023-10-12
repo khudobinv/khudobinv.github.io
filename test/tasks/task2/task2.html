@@ -16,16 +16,16 @@
                 <img src="./img/logo.svg" alt="Логотип">
             </div>
             <div class="links">
-                <a href="./">Ссылки</a>
-                <a href="./">Таблица</a>
+                <a href="#list_links">Ссылки</a>
+                <a href="#my_table">Таблица</a>
                 <div class="button">
-                    <a href="./">Форма</a>
+                    <a href="#my_form">Форма</a>
                 </div>
             </div>
         </div>
     </header>
     <main>
-        <section class="section">
+        <section class="section" id="list_links">
             <div class="section__content">
                 <h1 class="section__heading">Список ссылок</h1>
                 <ul>
@@ -64,7 +64,7 @@
                 </ul>
             </div>
         </section>
-        <section class="section">
+        <section class="section" id="my_table">
             <div class="section__content">
                 <h1 class="section__heading">Таблица</h1>
                 <table class="table">
@@ -103,7 +103,7 @@
                 </table>
             </div>
         </section>
-        <section class="section">
+        <section class="section" id="my_form">
             <div class="section__content form">
                 <h1 class="section__heading">Форма</h1>
                 <div class="form">
@@ -146,7 +146,7 @@
                         <label for="bio">Ваша биография</label>
                         <textarea id="bio" cols="30" rows="10" placeholder="Напишите немного о себе (пару предложений)" required></textarea>
                         <div class="agree">
-                            <input type="checkbox" id="agreement">
+                            <input type="checkbox" id="agreement" required>
                             <label for="agreement">С контрактом ознакомлен(а)</label>
                         </div>
                         <input class="form-btn" type="submit" value="Сохранить">
