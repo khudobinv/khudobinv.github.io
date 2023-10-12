@@ -94,6 +94,24 @@ ul li a {
     color: #3380ef;
 }
 
+table {
+    margin-top: 0 15px;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+table * {
+    border: 1px solid #1F2125;
+}
+
+.table__title {
+    text-align: center;
+}
+
+th {
+    padding: 5px 10px;
+}
+
 footer {
     margin-top: 40px;
     background-color: #ffffff;
@@ -147,6 +165,9 @@ footer {
         font-size: 40px;
     }
 
+    table {
+        font-size: 13px;
+    }
     
 }
 
@@ -161,5 +182,9 @@ footer {
         padding: 0;
         color: #3380ef;
         background-color: transparent;
+    }
+
+    table {
+        font-size: 13px;
     }
 }
