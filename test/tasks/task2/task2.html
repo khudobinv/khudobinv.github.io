@@ -103,6 +103,57 @@
                 </table>
             </div>
         </section>
+        <section class="section">
+            <div class="section__content form">
+                <h1 class="section__heading">Форма</h1>
+                <div class="form">
+                    <form action="./form.html">
+                        <label for="full_name">Ваше полное имя</label>
+                        <input type="text" id="full_name" placeholder="Введите ФИО полностью" required>
+                        <label for="telephone">Ваш номер телефона</label>
+                        <input type="tel" id="telephone" placeholder="Введите номер телефона" required>
+                        <label for="mail">Ваша электронная почта</label>
+                        <input type="email" id="mail" placeholder="Введите адрес электронной почты" required>
+                        <label for="birth_date">Ваша дата рождения</label>
+                        <input type="date" id="birth_date" required>
+                        <label for="gender">Ваш пол</label>
+                        <div class="gender" id="gender">
+                            <div class="gender__item">
+                                <input type="radio" id="male" checked>
+                                <label for="male">Мужской</label>
+                            </div>
+                            <div class="gender__item">
+                                <input type="radio" id="female">
+                                <label for="female">Женский</label>
+                            </div>
+                        </div>
+                        <label for="lang">Ваш любимый язык программирования</label>
+                        <div class="select-wrapper">
+                            <select id="lang" required>
+                                <option value="Pascal">Pascal</option>
+                                <option value="C">C</option>
+                                <option value="C++">C++</option>
+                                <option value="JavaScript">JavaScript</option>
+                                <option value="PHP">PHP</option>
+                                <option value="Python">Python</option>
+                                <option value="Java">Java</option>
+                                <option value="Haskell">Haskell</option>
+                                <option value="Clojure">Clojure</option>
+                                <option value="Prolog">Prolog</option>
+                                <option value="Scala">Scala</option>
+                            </select>
+                        </div>
+                        <label for="bio">Ваша биография</label>
+                        <textarea id="bio" cols="30" rows="10" placeholder="Напишите немного о себе (пару предложений)" required></textarea>
+                        <div class="agree">
+                            <input type="checkbox" id="agreement">
+                            <label for="agreement">С контрактом ознакомлен(а)</label>
+                        </div>
+                        <input class="form-btn" type="submit" value="Сохранить">
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         <div class="footer__container">
