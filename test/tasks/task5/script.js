@@ -1,5 +1,5 @@
 function func() {
-    var sel = document.getElementById('product').selectedIndex;
+    var sel = document.getElementById('selector').selectedIndex;
     var result;
     var count = document.getElementById('count').value;
     if (!(/^[0-9]+$/.test(count))) {
@@ -7,7 +7,7 @@ function func() {
     }
     else {
         count = Number(count);
-        switch(sel) {
+        switch (sel) {
             case 0:
                 result = 15292 * count;
                 break;
