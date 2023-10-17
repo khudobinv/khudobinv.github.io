@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
+    <title>Задание #2</title>
+</head>
+
+<body>
+    <header>
+        <div class="header__container">
+            <div class="logo">
+                <img src="./img/logo.svg" alt="Логотип">
+            </div>
+            <div class="links">
+                <a href="#list_links">Ссылки</a>
+                <a href="#my_table">Таблица</a>
+                <div class="button">
+                    <a href="#my_form">Форма</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="section" id="my_table">
+            <div class="section__content">
+                <h1 class="section__heading">Таблица</h1>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th class="table__title" colspan="4">Раписание занятий на 05.10.2023</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table__heading">
+                            <th class="table__subtitle">Название дисциплины</th>
+                            <th class="table__subtitle">Преподаватель</th>
+                            <th class="table__subtitle">Аудитория</th>
+                        </tr>
+                        <tr>
+                            <th>Математический анализ (ЛК)</th>
+                            <th>Чубырь Н. О.</th>
+                            <th>129</th>
+                        </tr>
+                        <tr>
+                            <th>Разработка пользовательского веб-интерфейса</th>
+                            <th>Гаркуша О. В.</th>
+                            <th>107/3</th>
+                        </tr>
+                        <tr>
+                            <th>Иностранный язык</th>
+                            <th>Семердижи В. Н.</th>
+                            <th>107/3</th>
+                        </tr>
+                        <tr>
+                            <th>Математический анализ (ПР)</th>
+                            <th>Новиков О. И.</th>
+                            <th>147</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section class="section" id="list_links">
+            <div class="section__content">
+                <h1 class="section__heading">Список ссылок</h1>
+                <ul>
+                    <li><a href="http://kubsu.ru">Сайт КубГУ</a></li>
+                    <li><a href="https://kubsu.ru">Сайт КубГУ(https)</a></li>
+                    <li><a href="img/image.png"><img src="img/image.png" alt="Ссылка-изображение" width="224"
+                                height="168"></a></li>
+                    <li><a href="page_in_catalog.html">Сокращенная ссылка на внутреннюю страницу</a></li>
+                    <li><a href="/">Сокращенная ссылка на главную страницу</a></li>
+                    <li><a href="./index.html#form">Ссылка на фрагмент текущей страницы</a></li>
+                    <li><a href="./index.html?id=bio&name=bio&title=biography">Ссылка с тремя параметрами в URL</a></li>
+                    <li><a href="./index.html?id=fio">Ссылка с параметром id в URL</a></li>
+                    <li><a href="./page_in_catalog.html">Относительная ссылка на страницу в текущем каталоге</a></li>
+                    <li><a href="about/about.html">Относительная ссылка на страницу в каталоге about</a></li>
+                    <li><a href="../one_level.html">Относительная ссылка на страницу уровнем выше текущего</a></li>
+                    <li><a href="../../two_level.html">Относительная ссылка на страницу двумя уровнями выше</a></li>
+                    <li>
+                        <p>Тут просто идет какой-то текст и так далее, потом <a href="https://github.com/"> контекстная
+                                ссылка на GitHub</a>, а дальше также такой же текст</p>
+                    </li>
+                    <li><a href="https://ru.wikipedia.org/wiki/HTML#Браузеры">Ссылка на фрагмент страницы стороннего
+                            сайта</a></li>
+                    <li>
+                        <map name="#map">
+                            <area shape="rect" coords="0 0 120 150" href="https://github.com" alt="Тут прямогульник">
+                            <area shape="circle" coords="180 74 60" href="https://vk.com" alt="Тут круг">
+                        </map>
+                        <img usemap="#map" src="img/image_area.png" width="240" height="150" />
+                    </li>
+                    <li><a href="">Ссылка с пустым href</a></li>
+                    <li><a>Ссылка без href</a></li>
+                    <li><a href="https://kubsu.ru/" rel="nofollow">Ссылка, по которой запрещен переход поисковикам</a>
+                    </li>
+                    <li><a href="https://kubsu.ru/" rel="noindex">Запрещенная для индексации поисковиками</a></li>
+                    <ol>
+                        <li><a href="https://vk.com" title="ВКонтакте">Социальная сеть ВКонтакте</a></li>
+                        <li><a href="https://t.me" title="Telegram">Мессенджер Telegram</a></li>
+                        <li><a href="https://whatsapp.com" title="WhatsApp">Мессенджер WhatsApp</a></li>
+                    </ol>
+                    <li><a href="ftp://user_password@host_port">Ссылка на FTP-сервер с авторизацией</a></li>
+                    <li><a href="../../index.html"><b>Вернуться ко всем заданиям</b></a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="section" id="my_form">
+            <div class="section__content form">
+                <h1 class="section__heading">Форма</h1>
+                <div class="form">
+                    <form action="./form.html">
+                        <label for="full_name">Ваше полное имя</label>
+                        <input type="text" id="full_name" placeholder="Введите ФИО полностью" required>
+                        <label for="telephone">Ваш номер телефона</label>
+                        <input type="tel" id="telephone" placeholder="Введите номер телефона" required>
+                        <label for="mail">Ваша электронная почта</label>
+                        <input type="email" id="mail" placeholder="Введите адрес электронной почты" required>
+                        <label for="birth_date">Ваша дата рождения</label>
+                        <input type="date" id="birth_date" required>
+                        <label for="gender">Ваш пол</label>
+                        <div class="gender" id="gender">
+                            <div class="gender__item">
+                                <input type="radio" id="male" checked>
+                                <label for="male">Мужской</label>
+                            </div>
+                            <div class="gender__item">
+                                <input type="radio" id="female">
+                                <label for="female">Женский</label>
+                            </div>
+                        </div>
+                        <label for="lang">Ваш любимый язык программирования</label>
+                        <div class="select-wrapper">
+                            <select id="lang" required>
+                                <option value="Pascal">Pascal</option>
+                                <option value="C">C</option>
+                                <option value="C++">C++</option>
+                                <option value="JavaScript">JavaScript</option>
+                                <option value="PHP">PHP</option>
+                                <option value="Python">Python</option>
+                                <option value="Java">Java</option>
+                                <option value="Haskell">Haskell</option>
+                                <option value="Clojure">Clojure</option>
+                                <option value="Prolog">Prolog</option>
+                                <option value="Scala">Scala</option>
+                            </select>
+                        </div>
+                        <label for="bio">Ваша биография</label>
+                        <textarea id="bio" cols="30" rows="10" placeholder="Напишите немного о себе (пару предложений)"
+                            required></textarea>
+                        <div class="agree">
+                            <input type="checkbox" id="agreement" required>
+                            <label for="agreement">С контрактом ознакомлен(а)</label>
+                        </div>
+                        <input class="form-btn" type="submit" value="Сохранить">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer__container">
+            <div class="footer__text">
+                <h3>&#169; Худобин Василий, 2023 г.</h3>
+                <p>ФГБОУ ВО "Кубанский государственный университет"</p>
+                <p>Прикладная математика и информатика </p>
+            </div>
+            <div class="footer__logos">
+                <img src="./img/kubsu.svg" alt="">
+            </div>
+        </div>
+    </footer>
+</body>
