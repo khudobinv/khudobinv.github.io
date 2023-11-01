@@ -16,7 +16,7 @@ $(document).ready(function() {
             breakpoint: 420,
             settings: {
               slidesToShow: 1,
-              slidesToScroll: 2,
+              slidesToScroll: 1,
               infinite: true,
               dots: true
             }
