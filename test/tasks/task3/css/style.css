@@ -291,6 +291,7 @@ footer {
 }
 
 @media screen and (max-width: 390px) {
+
     table {
         font-size: 8px;
     }
@@ -298,4 +299,30 @@ footer {
     th {
         padding: 3px 5px;
     }
+
+    main:first-child {
+        order: -10; 
+    }
+
+    header {
+        height: 35vh;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #my_table {
+        order: 1;
+    }
+    
+    #list_links {
+        order: 2;
+    }
+    
+    #my_form {
+        order: 3;
+    }
+
 }
